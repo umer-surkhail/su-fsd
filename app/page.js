@@ -1,7 +1,8 @@
 'use client'
 import { useEffect, useState } from "react";
 
-const url = `${process.env.NEXT_PUBLIC_API_URL}/csv-parser`
+const url = `${process.env.NEXT_PUBLIC_API_URL}/csv-parser`;
+
 export default function Home() {
   const [sort, setSort] = useState('created-at')
   const [data, setData] = useState([])
